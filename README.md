@@ -1,8 +1,15 @@
 # bech32
-Swift wrapper for sipa bech32
 
-## Acknogwledgements
-This package uses source files from Pieter Wuille's [bech32](https://github.com/sipa/bech32) reference implementation under license text
+A small, dependency-free Swift wrapper around Pieter Wuille's
+[bech32](https://github.com/sipa/bech32) reference implementation, providing
+Bech32 / Bech32m and SegWit (BIP-173 / BIP-350) address encoding and decoding.
+
+## Acknowledgements
+
+This package uses source files from Pieter Wuille's
+[bech32](https://github.com/sipa/bech32) reference implementation under the
+following license:
+
 ```c
 /* Copyright (c) 2017, 2021 Pieter Wuille
  *
@@ -25,3 +32,7 @@ This package uses source files from Pieter Wuille's [bech32](https://github.com/
  * THE SOFTWARE.
  */
 ```
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE).
